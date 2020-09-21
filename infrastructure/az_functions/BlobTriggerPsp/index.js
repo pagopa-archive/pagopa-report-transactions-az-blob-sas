@@ -37,8 +37,7 @@ const getShortHmac = (message, len = 12) => {
 };
 
 async function createContainers(containerName) {
-  const STORAGE_CONNECTION_STRING =
-    "DefaultEndpointsProtocol=https;AccountName=stpspreportsfatture;AccountKey=IWQZqEeocsnl//+g+9SndzNedBfBG0T6vIPZNQ9NQDVtYiGtwbd0VwC+VDAYmgq8eM8qda97ffUNsNm712tQIw==;EndpointSuffix=core.windows.net";
+  const STORAGE_CONNECTION_STRING = "blablablablablabla";
   // Note - Account connection string can only be used in node.
   const blobServiceClient = BlobServiceClient.fromConnectionString(
     STORAGE_CONNECTION_STRING
