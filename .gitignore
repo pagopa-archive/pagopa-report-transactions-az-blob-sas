@@ -6,7 +6,8 @@ node_modules
 *.sh
 resources_ex
 .metals
-.vscode
+
+__TMP.md
 
 
 # Local .terraform directories

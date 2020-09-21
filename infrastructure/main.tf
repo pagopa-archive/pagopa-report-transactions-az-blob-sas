@@ -12,7 +12,7 @@ provider "azurerm" {
   version = "~> 1.42.0"
 }
 
-# Create a new Resource Group
+# Create a new Resource Group 
 resource "azurerm_resource_group" "resource_group" {
   name     = var.resource_group_name
   location = var.location
