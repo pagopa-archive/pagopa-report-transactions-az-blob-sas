@@ -6,6 +6,9 @@ node_modules
 *.sh
 resources_ex
 .metals
+.DS_Store
+
+
 
 __TMP.md
 
