@@ -1,10 +1,6 @@
 node_modules
-*.js
 *.py
-*.json
-*.env
 *.sh
-resources_ex
 .metals
 .DS_Store
 
