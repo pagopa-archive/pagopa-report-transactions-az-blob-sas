@@ -11,7 +11,7 @@ module.exports = async function (context, myBlob) {
   );
   const header = "pspname,abi,containername";
   const lista = String(context.bindings.myBlob).split("\n").slice(1);
-  const psp_abi = lista.map((e) => [e.split(";")[0], e.split(";")[2]]);
+  const psp_abi = lista.map((e) => [e.split("\t")[5], e.split("\t")[6]]);
   let psp_containernames = [header];
   let containerName = "";
   for (e of psp_abi) {

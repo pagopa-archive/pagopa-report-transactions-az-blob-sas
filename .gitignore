@@ -3,10 +3,9 @@ node_modules
 *.sh
 .metals
 .DS_Store
-
-
-
+.env
 __TMP.md
+resources_ex/contracts_crm.csv
 
 
 # Local .terraform directories

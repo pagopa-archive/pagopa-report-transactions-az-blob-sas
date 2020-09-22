@@ -1,7 +1,7 @@
 const csv = require("csv-parser");
 const fs = require("fs");
 
-const filepath = "./resources_ex/pagopa-psp_short.csv";
+const filepath = "./pagopa-psp_short.csv";
 
 fs.createReadStream(filepath)
   .on("error", () => {
